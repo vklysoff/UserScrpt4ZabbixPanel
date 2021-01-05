@@ -3,9 +3,10 @@
 // @description Попытки пытки Зяббакс
 // @author Lysov Vitalij
 // @license MIT
-// @version 1.1
+// @version 1.2
 // @include http*://zabbix*
 // @updateURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
+// @downloadURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
 // ==/UserScript==
 (function (window, undefined) {
     'use strict';
