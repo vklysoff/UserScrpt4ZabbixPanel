@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name myUserJSZabbix
-// @description Попытки пытки Зяббакс
+// @namespace https://github.com/vklysoff/
+// @copyright 2020, vklysoff
 // @author Lysov Vitalij
-// @license MIT
-// @version 1.3
+// @description Попытки пытки Зяббакс
+// @license GNU GENERAL PUBLIC LICENSE
+// @encoding utf-8
+// @version 1.4
 // @include http*://zabbix*
+// @supportURL https://github.com/vklysoff/UserScrpt4ZabbixPanel
 // @updateURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
 // @downloadURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
 // ==/UserScript==
