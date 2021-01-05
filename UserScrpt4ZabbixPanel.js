@@ -3,7 +3,7 @@
 // @description Попытки пытки Зяббакс
 // @author Lysov Vitalij
 // @license MIT
-// @version 1.2
+// @version 1.3
 // @include http*://zabbix*
 // @updateURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
 // @downloadURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
@@ -47,6 +47,7 @@
                 //let row = document.createElement('tr');
                 //row.innerHTML='<tr class="hover-nobg" style="background-color: lightgreen;"><td class="timeline-date"><h4>21:00</h4></td><td class="timeline-axis timeline-dot-big"></td><td class="timeline-td"></td><td colspan="7"></td></tr>';
                 //t.rows[1].parentNode.insertBefore(row, t.rows[1]);
+
 
                 // Подсвечиваем и пропускаем почасовые строки
                 if ( t.rows[i].cells.length < 5 ) {
