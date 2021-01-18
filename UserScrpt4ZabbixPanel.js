@@ -6,7 +6,7 @@
 // @description Попытки пытки Зяббакс
 // @license GNU GENERAL PUBLIC LICENSE
 // @encoding utf-8
-// @version 1.9
+// @version 1.10
 // @include http*://zabbix*
 // @supportURL https://github.com/vklysoff/UserScrpt4ZabbixPanel
 // @updateURL https://raw.githubusercontent.com/vklysoff/UserScrpt4ZabbixPanel/main/UserScrpt4ZabbixPanel.js
@@ -35,14 +35,8 @@
                 timeline: 1, //Удаляем идущие подряд часовые строки
                 phs: [
                     [
-                        'DC-PROD','ds-.*','Наличие просроченных сертификатов'
+                        '','\.ppt.*',''
                     ],
-                    [
-                        '','^ds-.*','Наличие просроченных сертификатов'
-                    ],
-                    //[
-                    //    '','\.ppt.*',''
-                    //],
                     [
                         '','','Нет данных по'
                     ],
@@ -72,11 +66,9 @@
                     if ( c != null ) {
                         let filter = new RegExp('blink', "");
                         if ( ! filter.test(c) ) {
-                            console.log(filter);
                             t.rows[i].setAttribute('class', c);
                         }
                     }
-                    //console.log(c);
                 }
 
                 // TODO: Маркер начала дежурства
